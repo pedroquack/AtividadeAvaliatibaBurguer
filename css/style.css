@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -6,16 +7,20 @@
     font-family: 'Anton', sans-serif;;
 }
 p{
-    font-family: Arial, sans-serif
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 .container_cabecalho{
     background-color: rgb(255,194,52);
 }
-.container-fluid{
+.navbar-nav{
     display: flex;
-    justify-content: space-between;
+    gap: 15px;
 }
-
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
 .container__main{
     background-color: rgb(255,194,52);
     display: flex;
@@ -52,6 +57,7 @@ p{
     font-size: 70px;
 }
 .titulo_sessao{
+    color: rgb(65,31,9);
     font-size: 50px;
 }
 .imagem{
@@ -74,27 +80,120 @@ p{
 }
 .section1{
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    height: 100%;
     align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.sect_try, .titulo_2{
+    width: 100%;
+    color: white;
+}
+.sect_try{
+    font-size: 16px;
+}
+.titulo_2{
+    font-size: 25px;
 }
 .imagem_esquerda{
     background-image: url(../img/sessao1/fundo1.png);
     background-repeat: no-repeat;
-    height: 200px;
-    width: 50%;
+    height: 350px;
+    width: 100%;
     background-size: contain;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
 }
 .imagens_direita{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
+    height: 350px;
+    gap: 30px;
 }
 .img1{
     background-image: url(../img/sessao1/fundo2.png);
     background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
 }
 .img2{
     background-image: url(../img/sessao1/fundo3.png);
     background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 5px; 
+}
+.imagem_esquerda,.img1,.img2{
+    padding: 20px;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+.text_always{
+    background-color: rgb(255,194,52);
+    width:fit-content;
+    padding: 10px;
+    color: rgb(65,31,9);
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.card{
+    border: 0;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.card-body .btn{
+    border: 0;
+    border-radius: 0;
+    background-color: rgb(223,28,28);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
+.section3{
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.discover{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+
+}
+.discover p{
+    text-align: justify;
+
+}
+.img_discover{
+    background-size: contain;
+    width: 50%;
+
+}

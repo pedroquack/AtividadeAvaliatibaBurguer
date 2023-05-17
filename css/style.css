@@ -61,6 +61,7 @@ p{
     width: 50%;
     background-image: url(/img/main/lanche-principal.png);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .delivery{
@@ -70,5 +71,30 @@ p{
     gap: 10px;
     color: rgb(65,31,9);
     font-weight: bold;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagem_esquerda{
+    background-image: url(../img/sessao1/fundo1.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 50%;
+    background-size: contain;
+}
+.imagens_direita{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.img1{
+    background-image: url(../img/sessao1/fundo2.png);
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image: url(../img/sessao1/fundo3.png);
+    background-repeat: no-repeat;
 }
 

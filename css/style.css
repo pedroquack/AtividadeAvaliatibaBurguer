@@ -23,8 +23,6 @@ p{
 }
 .container__main{
     background-color: rgb(255,194,52);
-    display: flex;
-    flex-direction: column;
     height: 600px;
     width: 100%;
     align-items: center;

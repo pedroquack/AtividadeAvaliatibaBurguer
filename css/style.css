@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Anton', sans-serif;;
 }
+body{
+    padding: 50px;
+}
 p{
     font-family: Arial, sans-serif;
     text-align: center;
@@ -134,8 +137,6 @@ p{
     padding: 20px;
 }
 .section2{
-    display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 20px;
     padding: 50px;
@@ -156,8 +157,6 @@ p{
     border: 0;
 }
 .card-body{
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -172,19 +171,12 @@ p{
 
 .section3{
     padding: 50px;
-    display: flex;
     gap: 20px;
-    align-items: center;
-    justify-content: space-between;
     width: 100%;
     height: 100%;
 }
 .discover{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     width: 50%;
-
 }
 .discover p{
     text-align: justify;
@@ -196,26 +188,16 @@ p{
 }
 .formulario{
     padding: 50px;
-    display: flex;
-    flex-direction: column;
     gap: 30px ;
 }
 .titulo_formulario{
     text-align: center;
     color: rgb(65,31,9);
 }
-.titulo_formulario span{
-    
-}
 .forms{
-    display: flex;
-    justify-content: center;
     gap: 30px;
-    justify-content: space-around;
 }
 .formpt1,.formpt2{
-    display: flex;
-    flex-direction: column;
     gap: 20px;
     width: 100%;
 }
@@ -239,20 +221,17 @@ footer{
     background-size: cover;
     padding: 50px;
     color: white;
+    gap: 30px;
 }
 .info_desc{
-    display: flex;
     width: 100%;
-    justify-content: space-between;
-    align-items: center;
 }
 .descricao{
-    display: flex;
     width: 50%;
 }
 .info{
     width: 30%;
-    display: flex;
-    flex-direction: column;
     gap: 15px;
 }
+
+

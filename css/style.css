@@ -1,197 +1,63 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Anton', sans-serif;;
-}
-p{
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-.container_cabecalho{
-    background-color: rgb(255,194,52);
-}
-.navbar-nav{
-    display: flex;
-    gap: 15px;
-}
-.nav-link{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-}
-.container__main{
-    background-color: rgb(255,194,52);
-    height: 600px;
-    width: 100%;
-    align-items: center;
-    padding: 15px;
-    gap: 15px;
-}
-.container-logoAndImage{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-.logo{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    color: rgb(65,31,9);
-}
-.logo_texto{
-    padding: 5px;
-    border: 2px dashed rgb(65,31,9);
     font-size: 18px;
 }
-.titulo{
-    font-size: 70px;
+header,main{
+    background-color: rgb(255,194,52)
 }
-.titulo_sessao{
-    color: rgb(65,31,9);
-    font-size: 50px;
-}
-.imagem{
+.texto_principal{
     display: flex;
-    flex-direction: column-reverse;
-    height: 100%;
-    width: 50%;
-    background-image: url(/img/main/lanche-principal.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
 }
 
-.delivery{
+.texto_principal h3{
+    border: 2px dashed rgb(65,31,9);
+    font-size: 1rem;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    color: rgb(65,31,9);
+    width: max-content;
+    padding: 0.5rem;
+}
+.texto_principal h1{
+    font-size: 5rem;
+}
+.texto-principal h2{
+    font-size: 3rem;;
+}
+.imagem_principal{
+    position: relative;
+}
+.imagem_preco{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.delivery{
+    color:rgb(65,31,9);
     font-weight: bold;
 }
-.section1{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-}
-.sect_try, .titulo_2{
-    width: 100%;
+
+.hamburguer_esquerda{
+    background-image: url("../img/sessao1/fundo1.png");
+    background-repeat: no-repeat;
+    width: 549px;
+    height: 387px;
     color: white;
+    padding: 1rem;
 }
-.sect_try{
-    font-size: 16px;
+.hamburguer_direita_img1{
+    background-image: url("../img/sessao1/fundo2.png");
+    width: 548px;
+    height: 177px;
+    color: white;
+    padding: 1rem;
 }
-.titulo_2{
-    font-size: 25px;
-}
-.imagem_esquerda{
-    background-image: url(../img/sessao1/fundo1.png);
-    background-repeat: no-repeat;
-    height: 350px;
-    width: 100%;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-}
-.imagens_direita{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 350px;
-    gap: 30px;
-}
-.img1{
-    background-image: url(../img/sessao1/fundo2.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    border-radius: 5px;
-}
-.img2{
-    background-image: url(../img/sessao1/fundo3.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    border-radius: 5px; 
-}
-.imagem_esquerda,.img1,.img2{
-    padding: 20px;
-}
-.section2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 50px;
-}
-.text_always{
-    background-color: rgb(255,194,52);
-    width:fit-content;
-    padding: 10px;
-    color: rgb(65,31,9);
-}
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
-}
-.card{
-    border: 0;
-}
-.card-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.card-body .btn{
-    border: 0;
-    border-radius: 0;
-    background-color: rgb(223,28,28);
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.section3{
-    padding: 50px;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
-}
-.discover{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 50%;
-
-}
-.discover p{
-    text-align: justify;
-
-}
-.img_discover{
-    background-size: contain;
-    width: 50%;
-
+.hamburguer_direita_img2{
+    background-image: url("../img/sessao1/fundo3.png");
+    width: 548px;
+    height: 177px;
+    color: white;
+    padding: 1rem;
 }

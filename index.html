@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
@@ -15,177 +15,86 @@
 </head>
 
 <body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg>
+        <div class=" container-fluid">
+        <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="Logo Burguer House"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active me-4" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-4" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-4" href="#">Our Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-4" href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container p-4">
+      <div class="conteudo_principal mb-3">
+        <div class="row">
+          <div class="texto_principal col-lg-6 col-12 d-flex flex-sm-column align-items-sm-center align-items-lg-start">
+            <h3>IT IS A GOOD TIME FOR THE GREAT TASTE OF BURGUERS</h3>
+            <h1>BURGUER</h1>
+            <h2>WEEK</h2>
+          </div>
+          <div class="imagem_principal col-lg-6 d-flex flex-sm-column align-items-sm-center align-items-lg-end">
+            <img src="./img/main/lanche-principal.png" alt="Hamburguer e fritas por $5.49">
+            <div class="imagem_preco">
+              <img src="./img/main/preco.png" alt="Valor do Hamburguer">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="delivery d-flex justify-content-center align-items-center">
+        <img src="./img/main/icone-entrega.png" alt="Icone de uma moto de entrega" class="me-2">
+        <span>Express delivery 41 99742-1004</span>
+      </div>
+    </div>
+  </main>
+<section class="p-4">
   <div class="container">
-    <header>
-      <div class="container_cabecalho">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="/img/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Menu</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Our Story</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <div class="container__main">
-        <div class="container-logoAndImage">
-          <div class="logo">
-            <span class="logo_texto">It is a good time for the great taste of burguers</span>
-            <span class="titulo">BURGUER</span>
-            <span class="titulo_sessao">WEEK</span>
-          </div>
-          <div class="imagem">
-            <div class="preco">
-              <img src="/img/main/preco.png" alt="">
-            </div>
-          </div>
-          
-        </div>
-        <div class="delivery">
-          <img src="/img/main/icone-entrega.png" alt="">
-          <p>Express Delivery +1 234 567 890</p>
+    <div class="row">
+      <div class="col-lg-6 col-12">
+        <div class="hamburguer_esquerda">
+          <h3>TRY IT TODAY</h3>
+          <h4>MOST POPULAR BURGUER</h4>
         </div>
       </div>
-    </main>
-
-    <section class="section1">
-      <div class="imagem_esquerda">
-        <span class="sect_try">TRY IT TODAY</span>
-        <span class="titulo_2">MOST POPULAR BURGUER</span>
-      </div>
-      <div class="imagens_direita">
-        <div class="img1">
-          <span class="sect_try">TRY IT TODAY</span>
-          <span class="titulo_2">MORE FUN</span>
-          <span class="titulo_2">MORE TASTE</span>
+      <div class="col-lg-6 col-12">
+        <div class="hamburguer_direita_img1 mb-4 ">
+          <h3>TRY IT TODAY</h3>
+          <h4>MORE FUN</h4>
+          <h4>MORE TASTE</h4>
         </div>
-        <div class="img2">
-          <span class="sect_try">TRY IT TODAY</span>
-          <span class="titulo_2">FRESH & CHILI</span>
+        <div class="hamburguer_direita_img2">
+          <h3>TRY IT TODAY</h3>
+          <h4>FRESH & CHILI</h4>
         </div>
       </div>
-    </section>
-    <section class="section2">
-      <span class="text_always">ALWAYS TASTY BURGUER</span>
-      <span class="titulo_sessao">Choose & enjoy</span>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem odio, fugit possimus, illum repellat
-        necessitatibus officiis nam repellendus nisi odit expedita voluptas temporibus, enim rem officia facilis quidem
-        nulla totam!</p>
-      <div class="cards">
-        <div class="card" style="width: 18rem;">
-          <img src="/img/sessao2/card1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Lorem ipsum dolor</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea, doloribus error
-              voluptates</p>
-            <a href="#" class="btn btn-primary">ORDER NOW</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="/img/sessao2/card2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Lorem ipsum dolor</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea, doloribus error
-              voluptates</p>
-            <a href="#" class="btn btn-primary">ORDER NOW</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="/img/sessao2/card3.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Lorem ipsum dolor</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea, doloribus error
-              voluptates</p>
-            <a href="#" class="btn btn-primary">ORDER NOW</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section3">
-      <div class="discover">
-        <span>DISCOVER</span>
-        <h2>UPCOMING EVENTS</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum id temporibus dolorum totam? Architecto,
-          ex. Odio in eveniet perferendis, saepe eligendi ipsam autem illo ex, neque reiciendis molestias dolor maxime!
-        </p>
-      </div>
-      <div class="img_discover">
-        <img src="/img/sessao3/imagem.png" alt="" class="upcoming">
-      </div>
-    </section>
-    <section class="formulario">
-      <div class="titulo_formulario">
-        <span>Reservation</span>
-        <h2>BOOK YOUR TABLE</h2>
-      </div>
-      <form action="">
-        <input type="text" name="nome" id="nome" placeholder="Name">
-        <input type="email" name="email" id="email" placeholder="EMail">
-        <input type="text" name="data" id="data" placeholder="Data">
-        <input type="text" name="hora" id="hora" placeholder="Time">
-        <input type="number" name="pessoas" id="pessoas" placeholder="People">
-        <button type="submit">Find a table</button>
-      </form>
-    </section>
-
-    <footer>
-      <div class="logo_footer">
-        <img src="/img/logo.png" alt="">
-      </div>
-      <div class="info_desc">
-        <div class="descricao">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, reprehenderit doloribus nobis debitis
-            asperiores corporis quaerat deleniti, aperiam veritatis aliquid quae praesentium consequatur at voluptatibus
-            tempora mollitia temporibus, eos non!</p>
-        </div>
-        <div class="info">
-          <div class="endereco">
-            <img src="/img/rodape/icone-local.png" alt="">
-            <span>Main road building name, Country</span>
-          </div>
-          <div class="email">
-            <img src="/img/rodape/icone-email.png" alt="">
-            <span>INFO@COMPANYNAME.COM</span>
-          </div>
-        </div>
-      </div>
-      <div class="rodape">
-        <div class="disclaimer">
-          <span>© Company name 2020. All rights reserved</span>
-          <div class="icones">
-            <img src="/img/rodape/icone-insta.png" alt="">
-            <img src="/img/rodape/icone-face.png" alt="">
-            <img src="/img/rodape/icone-twitter.png" alt="">
-            <img src="/img/rodape/icone-whats.png" alt="">
-          </div>
-        </div>
-      </div>
-    </footer>
+    </div>
   </div>
+</section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
-    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

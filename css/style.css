@@ -38,7 +38,6 @@ header,main{
     color:rgb(65,31,9);
     font-weight: bold;
 }
-
 .hamburguer_esquerda{
     background-image: url("../img/sessao1/fundo1.png");
     background-repeat: no-repeat;
@@ -60,4 +59,103 @@ header,main{
     height: 177px;
     color: white;
     padding: 1rem;
+}
+.menu_textos{
+    color: rgb(65,31,9);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.menu_textos h4{
+    font-size: 1rem;
+    background-color: rgb(255,194,52);
+    display: flex;
+    width: max-content;
+    padding: 0.5rem;
+}
+.menu_textos h3{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.menu_textos p{
+    padding: 0 5rem 2rem 5rem;
+}
+.card{
+    color: rgb(65,31,9);
+    border: none;
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    font-size: 0.8rem;
+    text-align: center;
+    flex-grow: 1;
+}
+.btn-primary{
+    background-color: RGB(223,28,28);
+    border: none;
+    font-weight: bold;
+    width: 70%;
+    border-radius: 0;
+}
+.btn-primary:hover{
+    background-color: rgb(255,194,52);
+    color: RGB(223,28,28);
+}
+.discover_imagem{
+    width: 100% ;
+}
+.discover{
+    color: rgb(65,31,9);
+}
+.discover h4{
+    font-size: 1.3rem;
+}
+.discover h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.discover p{
+    font-size: 0.8rem;
+}
+@media (max-width: 980px){
+    *{
+        font-size: 20px;
+    }
+    #hamburguer_today .row{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hamburguer_direita{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .card-img-top{
+        width: 40%;
+    }
+    .btn-primary{
+        width: 50%;
+    }
+}
+@media(max-width: 576px){
+    .card{
+        height: 350px;
+    }
 }

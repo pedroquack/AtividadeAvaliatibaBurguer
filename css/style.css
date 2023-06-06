@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     font-size: 18px;
+    font-family: 'R';
 }
 header,main{
     background-color: rgb(255,194,52)
@@ -133,6 +134,42 @@ header,main{
 .discover p{
     font-size: 0.8rem;
 }
+.form_textos{
+    color: rgb(65,31,9);
+}
+.form_textos h4{
+    font-size: 1rem;
+}
+.form_textos h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+form, .form_esquerda, .form_direita{
+    gap: 15px;
+}
+form input{
+    background-color: rgb(255,194,52);
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+form input::placeholder{
+    color: black;
+}
+form button{
+    background-color: RGB(223,28,28);
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+form button:hover{
+    background-color: rgb(255,194,52);
+    color: RGB(223,28,28)
+}
+
+
 footer{
     background-image: url(../img/rodape/fundo.png);
     background-repeat: no-repeat;

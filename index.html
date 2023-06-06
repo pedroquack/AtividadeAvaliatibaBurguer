@@ -36,7 +36,7 @@
                 <a class="nav-link me-4" href="#">Our Story</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-4" href="#">Contact us</a>
+                <a class="nav-link me-4" href="#contact">Contact us</a>
               </li>
             </ul>
           </div>
@@ -151,7 +151,31 @@
     </div>
   </section>
 
-  <footer>
+  <section class="formulario p-5">
+    <div class="container">
+      <div class="form_textos d-flex flex-column align-items-center">
+        <h4>RESERVATION</h4>
+        <h3>BOOK YOUR TABLE</h3>
+      </div>
+      <div class="row">
+        <form class="d-flex flex-lg-row flex-column justify-content-center align-items-center p-5" action="">
+          <div class="form_esquerda col-lg-3 col-12 d-flex flex-column">
+            <input type="text" name="nome" id="nome" placeholder="NAME">
+            <input type="date" name="data" id="data">
+            <input type="number" name="pessoas" id="pessoas" placeholder="PEOPLE">
+          </div>
+          <div class="form_direita col-lg-3 col-12 d-flex flex-column">
+            <input type="email" name="email" id="email" placeholder="EMAIL">
+            <input type="time" name="hora" id="hora">
+            <button type="submit">FIND A TABLE</button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
     <div class="container">
       <div class="footer_parte1">
         <div class="row d-flex flex-row justify-content-between">
@@ -162,7 +186,8 @@
               veritatis
               nemo. Dolore, necessitatibus?</p>
           </div>
-          <div class="footer_contato col-lg-5 col-12 d-flex flex-column justify-content-center align-items-lg-start align-items-sm-center">
+          <div
+            class="footer_contato col-lg-5 col-12 d-flex flex-column justify-content-center align-items-lg-start align-items-sm-center">
             <div class="endereco_contato">
               <img class="me-2" src="./img/rodape/icone-local.png" alt="Icone localização">
               <span>MAIN ROAD, BUILDING NAME, COUNTRY</span>
@@ -179,7 +204,8 @@
           <div class="footer_company col-lg-5 col-12 d-flex justify-content-center">
             <span>COMPANY NAME ALL RIGHTS RESERVED</span>
           </div>
-          <div class="footer_redes col-lg-5 col-12 d-flex flex-row justify-content-lg-end align-items-center justify-content-center">
+          <div
+            class="footer_redes col-lg-5 col-12 d-flex flex-row justify-content-lg-end align-items-center justify-content-center">
             <a href="instagram.com/pedroquackk">
               <img src="./img/rodape/icone-insta.png" alt="">
             </a>
